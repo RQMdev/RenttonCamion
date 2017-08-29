@@ -1,0 +1,101 @@
+@font-face {
+	font-family: 'Lobster';
+	src: url('../fonts/Lobster/Lobster-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url('../fonts/Lobster/OpenSans-Regular.ttf');
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-family: 'OpenSans', sans-serif;
+	font-size: 16px;
+	color: white;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.main-container {
+	width: 100%;
+	height: 90%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: url('../img/truck-moving.jpeg') no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+
+.title {
+	font-family: 'Lobster', serif;
+	font-size: 3.5rem;
+	margin: 0;
+	padding: 0;
+	transform: translate(-5rem, -7rem);
+}
+
+.newsletter-container {
+	background-color: rgba(48,173,213,.6);
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem;
+	border-radius: 15px;
+}
+
+.newsletter-title {
+	text-align: center;
+}
+
+.newsletter-input {
+	width: 18rem;
+	border: none;
+	margin-bottom: 0.7rem;
+	padding: 0.5rem 1rem;
+}
+
+.newsletter-button {
+	width: 7rem;
+	padding: 0.5rem 1rem;
+	margin: 1rem auto;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	color: white;
+	background-color: #0A556D;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 10%;
+	font-size: 0.65rem;
+	background-color: #000F14;
+}
+
+.footer:first-child:before, .footer:last-child:after {
+	content: '';
+}
+
+.footer-info {
+	width: 9rem;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.separation {
+	width: 1px;
+	height: 60%;
+	background-color: #444;
+}
